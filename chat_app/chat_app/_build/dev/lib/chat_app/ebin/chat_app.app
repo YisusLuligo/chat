@@ -1,0 +1,11 @@
+{application,chat_app,
+             [{modules,['Elixir.ChatApp','Elixir.ChatApp.Application',
+                        'Elixir.ChatClient','Elixir.ChatPersistence',
+                        'Elixir.ChatServer','Elixir.ChatSession',
+                        'Elixir.ChatUser','Elixir.ChatUtils']},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,crypto]},
+              {description,"chat_app"},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.ChatApp.Application',[]}}]}.
